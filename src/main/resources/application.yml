@@ -1,0 +1,12 @@
+server:
+  port: 8080
+---
+spring:
+  profiles: debug
+server:
+  port: 8085
+logging:
+  level:
+    org.apache.http: DEBUG
+    org.springframework: DEBUG
+    com.nowember: DEBUG
